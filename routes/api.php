@@ -19,4 +19,5 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 Route::namespace('App\Http\Controllers')->group(function(){ 
     Route::resource('products', 'ProductController');
+    Route::get('/users', 'UserController@index');
 });

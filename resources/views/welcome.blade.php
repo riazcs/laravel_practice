@@ -8,7 +8,9 @@
         <link href="{{asset('css/app.css')}}" rel="stylesheet" type="text/css">
     </head>
     <body>
-        <div id="crud-app"></div>
+    <div id="app">
+            <users></users>
+        </div>
         <script src="{{asset('js/app.js')}}"></script>
     </body>
 </html>
